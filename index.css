@@ -1,0 +1,207 @@
+container
+{
+    width:100%;
+    height:3000px;
+    border-style: groove;
+
+
+}
+.nav
+{
+    width: 90%;
+    height: 50px;
+    background-color: black;
+    margin:auto;
+    overflow: auto;
+}
+ul
+{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+li{
+
+    float: left;
+}
+a:link
+{
+
+    color: aliceblue;
+    width: 90%;
+    height: 50px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topper
+{
+    width:100%;
+    height:565px;
+    border-style: white;
+
+}
+.img1_friut
+{
+
+    max-width: 100%;
+}
+.h1
+{
+    text-align: center;
+}
+
+.bottom
+{  
+    margin: 150px auto;
+    width:100%;
+    height:535px;
+    border-style: white;
+    padding-right:50px;
+    
+}
+.img3_fruit
+{
+    max-width: 200%;
+    float: left;
+    border-radius:10px;
+    margin-right: 100px;
+    
+
+}
+
+.text-box h2{
+
+    font-size: 42px;
+    margin-left: 600px;
+    margin-top: 100px;
+    text-align: left;
+    padding-right: 300px;
+    text-align:right;
+    
+
+}
+.text-box p
+{
+    font-size: 16px;
+    padding-right: 50px;
+
+}
+
+.box 
+{
+    flex: 0 0 31.33%;
+    margin: 1%;
+    position: relative;
+    overflow: hidden;
+
+}
+.f-3
+{
+    float:right;
+    margin-bottom: 1000px;
+    width: 400px;
+    margin-left: 20px;
+    
+}
+.f-6
+{
+    float:right;
+    margin-bottom: 2000px;
+    width: 00px;
+    
+
+
+    
+}
+
+.heading_container
+{
+
+    text-align: center;
+
+}
+.per
+{  
+ font-size: 42px;
+ font-family: 'Times New Roman', Times, serif;
+}
+.h5
+{
+ 
+    text-align: center;
+    margin-left: 100px;
+
+}
+.pre{
+
+    text-align: center;
+}
+.h2
+{
+ text-align: center;
+
+}
+.footer
+{
+
+    width:95%;
+    height:400px;
+    border-style:groove;
+    
+}
+.f1
+{
+    width:80%;
+    height:400px;
+    border-style:groove;
+    background-color: black;
+    margin-left: 100px;
+
+
+}
+.h6
+{
+
+    text-align: center;
+}
+.pass
+{
+    color: aliceblue;
+    padding-bottom: 50px;
+}
+.f1
+{
+    color: aliceblue;
+
+    font-size: 20px;
+
+}
+.info_form {
+    margin: 0 auto;
+    margin-bottom: 45px;
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 425px) {
+    .nav
+{
+    
+    height: 100px;
+    display: :block;
+    /* margin:auto; */
+    /* overflow: auto; */
+}
+.img3_fruit
+{
+    float: none;
+    width: 30%;
+}
+   
+  }

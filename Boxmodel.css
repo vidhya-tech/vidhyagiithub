@@ -1,0 +1,9 @@
+.title
+{
+    background-color: lightblue;
+    width:90%;
+    height: 500px;
+    border: 15px solid gray;
+    padding: 50px;
+    margin: 20px;
+}
